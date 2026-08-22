@@ -61,7 +61,7 @@ user's default browser. A project already bound to a board re-authenticates to
 that same board; `--rebind` (the `switch` path) unlocks the full picker:
 
 ```bash
-node ${PLUGIN_ROOT}/scripts/pmap-login.js --start --host codex --domain connect --plugin-version 0.10.10   # add --rebind only for /login switch
+node ${PLUGIN_ROOT}/scripts/pmap-login.js --start --host codex --domain connect --plugin-version 0.10.11   # add --rebind only for /login switch
 # add --base-url <url> when $ARGUMENTS contains an http(s) URL
 ```
 
