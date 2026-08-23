@@ -3,9 +3,7 @@
     "provenmap": {
       "type": "http",
       "url": "https://platform.provenmap.com/api/mcp",
-      "headers": {
-        "Authorization": "Bearer ${PMAP_MCP_TOKEN}"
-      }
+      "bearer_token_env_var": "PMAP_MCP_TOKEN"
     }
   }
 }
