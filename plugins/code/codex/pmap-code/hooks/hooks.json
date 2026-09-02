@@ -1,5 +1,5 @@
 {
-  "description": "ProvenMap hooks: session status, display guard, intents resolve gate",
+  "description": "ProvenMap hooks: session status, display guard + turn marker, intents resolve gate, next-steps gate",
   "hooks": {
     "SessionStart": [
       {
