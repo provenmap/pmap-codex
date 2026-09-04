@@ -20,7 +20,7 @@ allowed-tools: Read, Glob, Grep, Write, Bash(node:*), AskUserQuestion
 
 **3 Summary** — after the last skill, print one row per skill: Skill | Findings | Trail Stops | Critical | High | Status (`pushed`/`saved`).
 
-**Close:** `node ${PLUGIN_ROOT}/scripts/pmap-status.js --after insights --domain code` — print verbatim.
+**Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-status.js --brief --domain code --command insights` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
 
 ## Connect-now offer
 

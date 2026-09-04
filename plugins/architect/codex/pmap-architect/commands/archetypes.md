@@ -41,7 +41,7 @@ error vocabulary and formatting norms.
    an existing name). Nothing to wait on locally — the admin reviews in the platform; rerun
    `/archetypes` for the next gap round whenever new material surfaces.
 
-**Close:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --after archetypes` — print verbatim.
+**Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --brief --command archetypes` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
 
 ## Failure branches
 

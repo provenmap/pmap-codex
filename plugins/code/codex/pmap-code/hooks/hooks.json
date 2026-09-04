@@ -1,5 +1,5 @@
 {
-  "description": "ProvenMap hooks: session status, display guard + turn marker, intents resolve gate, next-steps gate",
+  "description": "ProvenMap hooks: session status, intents resolve gate, dispatch log",
   "hooks": {
     "SessionStart": [
       {
@@ -26,16 +26,6 @@
       }
     ],
     "PostToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node ${PLUGIN_ROOT}/scripts/pmap-display-guard.js",
-            "timeout": 10
-          }
-        ]
-      },
       {
         "matcher": "Task",
         "hooks": [

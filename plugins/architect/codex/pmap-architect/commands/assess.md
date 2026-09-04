@@ -25,7 +25,7 @@ and [`${PLUGIN_ROOT}/knowledge/board-reading/SKILL.md`](../knowledge/board-readi
 5. **Record** — `create_insight` (draft batch), then the "Promote any of this to intents?" offer.
    Not now → close.
 
-**Close:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --after assess` — print verbatim.
+**Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --brief --command assess` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
 
 ## Failure branches
 

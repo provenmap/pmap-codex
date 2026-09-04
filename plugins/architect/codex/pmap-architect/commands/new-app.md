@@ -5,7 +5,7 @@ argument-hint: "<name or idea>"
 allowed-tools: Read, AskUserQuestion, Bash(node:*), mcp__plugin_pmap-architect_provenmap__*
 ---
 
-Architecture-first inception of one system on an existing landscape. Grill first, then build.
+Architecture-first inception of one system on an existing landscape.
 Read `${PLUGIN_ROOT}/knowledge/landscape-modeling/SKILL.md`, `${PLUGIN_ROOT}/knowledge/architect-core/SKILL.md`,
 `${PLUGIN_ROOT}/knowledge/board-reading/SKILL.md` and
 `${PLUGIN_ROOT}/knowledge/intents-authoring/SKILL.md`.
@@ -19,7 +19,7 @@ node ${PLUGIN_ROOT}/scripts/pmap-architect.js --spine new-app --step <n> [--bank
 ```
 
 `<n>` is the step number; `--banked` is a flat JSON object of facts so far. Print it
-**verbatim** as the step banner.
+**verbatim**.
 
 ### Step 1 — grill
 
@@ -67,7 +67,7 @@ Converted as `new_app` → one AskUserQuestion: **Prep the build now?**
   the drafts file carries into the spec set, then skills (architect-core's inline handoff).
 - **Later** → close.
 
-**Close:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --after new-app --facts '{"board":"<slug>","observationType":"<observationType>"}'` — print verbatim.
+**Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --brief --command new-app --facts '{"board":"<slug>","observationType":"<observationType>"}'` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
 
 ## Failure branches
 
