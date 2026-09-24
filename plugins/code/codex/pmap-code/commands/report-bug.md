@@ -43,4 +43,4 @@ you draft the report, and the user reviews and posts it.
 
    Say plainly that nothing has been sent.
 
-6. **Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-status.js --brief --domain code --command report-bug` → one line, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
+6. **Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-status.js --brief --command report-bug` → one line, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.

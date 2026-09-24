@@ -58,7 +58,7 @@ Run `node ${PLUGIN_ROOT}/scripts/pmap-sync.js --apply-styles <slug>`. Branch on 
 - `errorType: "auth_invalid"` → make the **connect-now offer** (below)
 - Any other error → relay the CLI's `error` field; the styling can be retried with /restyle.
 
-**Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-status.js --brief --domain code --command restyle` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
+**Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-status.js --brief --command restyle` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
 
 ### Connect-now offer
 

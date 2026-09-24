@@ -22,7 +22,7 @@ and [`${PLUGIN_ROOT}/knowledge/board-reading/SKILL.md`](../knowledge/board-readi
    (`InsightDraft[]` with trails); structural changes go as `proposal` on the insight.
 4. **Review in reverse** — walk the insights with the architect; keep what survives their
    challenge.
-5. **Record** — `create_insight` (draft batch), then the "Promote any of this to intents?" offer.
+5. **Record** — `create_insight` (draft batch), then the "Promote any of this to work items?" offer.
    Not now → close.
 
 **Outcome:** `node ${PLUGIN_ROOT}/scripts/pmap-architect.js --brief --command assess` → Done · Left · Next, per `${PLUGIN_ROOT}/knowledge/outcome/SKILL.md`.
