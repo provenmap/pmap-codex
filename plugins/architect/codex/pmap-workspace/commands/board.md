@@ -28,7 +28,9 @@ Classify per the architect-core taxonomy; per-class detection facts and orientat
   `${PLUGIN_ROOT}/knowledge/board-init/SKILL.md` and run its bootstrap inline — the full one for an
   app board, the lightweight variant for a layer (or route up to the owning app board).
 - **Root / landscape** → orient as a **portfolio**, not a canvas walk; landscape edits follow
-  `${PLUGIN_ROOT}/knowledge/landscape-modeling/SKILL.md`.
+  `${PLUGIN_ROOT}/knowledge/landscape-modeling/SKILL.md` — new systems or connections go through
+  its plan file, `--render-plan` and the go-ahead, as in `/new-app`; with the repos cloned here,
+  `--scan-repos` them first so the services they use carry evidence.
 - **Plain layer** → orient normally; say that facet work (work items) routes up to the owning app board.
 - **App board** → the full board-reading orientation sequence (`get_workboard_details`,
   `get_hub_status`, `list_work_items`, `list_insights`).

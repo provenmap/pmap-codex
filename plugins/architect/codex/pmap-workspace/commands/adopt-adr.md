@@ -18,7 +18,7 @@ landing uses [`${PLUGIN_ROOT}/knowledge/work-items-authoring/SKILL.md`](../knowl
    (boards + counts) and the architect decides — one combined commit later, or pause first
    (architect-core).
 2. **Intake** — normalize the material to Context / Decision / Consequences / Alternatives
-   (adr-adoption §1); running record in the drafts file.
+   (adr-adoption §1).
 3. **Blast radius** — affected apps from the landscape; per app, sweep the governed element
    classes (the aspect-family table in adr-adoption §2; default depth: apps + one layer down).
    Classify compliant / violating / unclear.

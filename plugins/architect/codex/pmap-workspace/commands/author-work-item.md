@@ -25,8 +25,7 @@ is the long-form entry to that workflow; `/work-items` is the queue view.
 3. **Run the authoring interview** — work-items-authoring "The authoring loop": surround pull →
    one-screen context brief, solution shaping when the approach is unsettled, the holistic
    sweep, the materialization gates (duplicate · already-implemented · sequencing), then the
-   grill to the done-bar (`references/authoring-interview.md`). The draft is kept in the
-   drafts file so the interview survives context loss.
+   grill to the done-bar (`references/authoring-interview.md`).
 4. **Land** — the pre-land self-review, then the read-back gate (the assembled work item rendered
    once — Land as draft / Revise), then `--validate work-item` on the payload and `create_work_item`.
    The work item is born a
